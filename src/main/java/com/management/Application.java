@@ -2,11 +2,12 @@ package com.management;
 
 import com.management.product.view.ProductMenu;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Application {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         do {
             System.out.println("====== Product Management System ======");
